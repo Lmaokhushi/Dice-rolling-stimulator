@@ -1,4 +1,5 @@
 import random
+
 a = "Y"
 
 while a == "Y":
