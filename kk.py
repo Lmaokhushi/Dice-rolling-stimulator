@@ -1,8 +1,8 @@
 import random
 
-a = "Y"
+a = "yes"
 
-while a == "Y":
+while a == "yes":
     x = random.randint(1,6)
     if x == 1:
         print("---------")
@@ -10,35 +10,35 @@ while a == "Y":
         print("|   0   |")
         print("|       |")
         print("---------")
-    if x == 2:
+    elif x == 2:
         print("---------")
         print("|   0   |")
         print("|       |")
         print("|   0   |")
         print("---------")
-    if x == 3:
+    elif x == 3:
         print("---------")
         print("|   0   |")
         print("|       |")
         print("| 0   0 |")
         print("---------")
-    if x == 4:
+    elif x == 4:
         print("---------")
         print("| 0   0 |")
         print("|       |")
         print("| 0   0 |")
         print("---------")
-    if x == 5:
+    elif x == 5:
         print("---------")
         print("| 0   0 |")
         print("|   0   |")
         print("| 0   0 |")
         print("---------")
-    if x == 6:
+    elif x == 6:
         print("---------")
         print("| 0   0 |")
         print("| 0   0 |")
         print("| 0   0 |")
         print("---------")
-    a = input("enter Y to roll the dice:")
+    a = input("enter yes to roll the dice: ")
 
